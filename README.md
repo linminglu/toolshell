@@ -11,3 +11,8 @@ this.playAudio =function (szWords){
     var audio = new Audio("http://api.microsofttranslator.com/V2/http.svc/Speak?oncomplete=Speech.onSpeechComplete&appId=3AFAC12D1A7C674242EE37C45BD5E3293DDF4A74&language=zh-chs&text=" + szWords)
     audio.play();       
 }   
+
+
+
+3 更新appicon 制作工具。 后续再添加安卓的appicon的制作。   
+运行测试python appiconmake.py [imagename] [outputfile]
